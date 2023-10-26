@@ -19,7 +19,7 @@ function check() {
       place.innerHTML = data.name;
       degree.innerHTML = Math.floor(data.main.feels_like - 273) + "°C";
       speed.innerHTML = data.wind.speed +"km/h";
-      percent.innerHTML=data.main.humidity+ "gm/kg"
+      percent.innerHTML=data.main.humidity+ "%"
       sunrise.innerHTML=data.sys.sunrise
       sunset.innerHTML=data.sys.sunset
     });
